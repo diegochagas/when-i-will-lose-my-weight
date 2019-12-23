@@ -1,48 +1,17 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
-import { Container, Button } from './styles';
+import { Container } from './styles';
 
 export default function Results() {
-  function BMI(weight, height) {
-    const value = weight / (height * height);
-    let category = '';
-    
-    if (value < 18.5 ) category = 'Underweight';
-    else if (value > 18.5 && value < 24.9) category = 'Normal weight';
-    else if (value > 25 && value < 29.9) category = 'Overweight';
-    else category = 'Obesity';
-    
-    return { value, category };
-  }
-  
-  function buildInformations() {
-    const informations = [];
-
-    let weight = 102.3;
-    const height = 1.70;
-
-    const { value: bmi, category } = BMI(weight, height);
-
-    for (let i = 0; i < 9; i++) {
-      informations.push({
-        date: '25/11/2019',
-        weight,
-        height,
-        bmi: bmi.toFixed(2),
-        bmiCategories: category,
-      });
-  
-      weight--;
-    }
-
-    return informations;
-  }
-
-  const informations = buildInformations();
+  const informations = useSelector(state => state.informations);
 
   return (
     <Container>
       <div className="table">
+        <h2>Losing 1kg per week</h2>
+
         <div className="thead">
           <span>Date</span>
 
@@ -52,7 +21,7 @@ export default function Results() {
 
           <span>BMI Categories</span>
         </div>
-                
+
         {informations.map(information => (
           <div className="line" key={information.weight}>
             <span>{information.date}</span>
@@ -61,12 +30,16 @@ export default function Results() {
 
             <span>{information.bmi}</span>
 
-            <span>{information.bmiCategories}</span>
+            <span>{information.category}</span>
           </div>
         ))}
       </div>
 
-      <Button to="/">Go back to home</Button>
+      <div>
+        <Link to="/" className="btn">
+          Go back to home
+        </Link>
+      </div>
     </Container>
   );
 }

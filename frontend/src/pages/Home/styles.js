@@ -1,9 +1,21 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
 
 export const Form = styled.form`
-  
-`;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
 
-export const Button = styled(Link)`
+  div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    label {
+      flex: 1;
+    }
+
+    input {
+      flex: 4;
+    }
+  }
 `;
