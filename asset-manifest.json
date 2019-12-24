@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/wheniwilllosemyweight/static/js/main.722851d0.chunk.js",
-    "main.js.map": "/wheniwilllosemyweight/static/js/main.722851d0.chunk.js.map",
+    "main.js": "/wheniwilllosemyweight/static/js/main.097ae805.chunk.js",
+    "main.js.map": "/wheniwilllosemyweight/static/js/main.097ae805.chunk.js.map",
     "runtime-main.js": "/wheniwilllosemyweight/static/js/runtime-main.86d5b1a8.js",
     "runtime-main.js.map": "/wheniwilllosemyweight/static/js/runtime-main.86d5b1a8.js.map",
     "static/js/2.b59e7e20.chunk.js": "/wheniwilllosemyweight/static/js/2.b59e7e20.chunk.js",
     "static/js/2.b59e7e20.chunk.js.map": "/wheniwilllosemyweight/static/js/2.b59e7e20.chunk.js.map",
     "index.html": "/wheniwilllosemyweight/index.html",
-    "precache-manifest.193492f84ab8a74363b4a431d31c354b.js": "/wheniwilllosemyweight/precache-manifest.193492f84ab8a74363b4a431d31c354b.js",
+    "precache-manifest.e5ddc25de1b9a99b3dc503239113e1e4.js": "/wheniwilllosemyweight/precache-manifest.e5ddc25de1b9a99b3dc503239113e1e4.js",
     "service-worker.js": "/wheniwilllosemyweight/service-worker.js",
     "static/js/2.b59e7e20.chunk.js.LICENSE": "/wheniwilllosemyweight/static/js/2.b59e7e20.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.86d5b1a8.js",
     "static/js/2.b59e7e20.chunk.js",
-    "static/js/main.722851d0.chunk.js"
+    "static/js/main.097ae805.chunk.js"
   ]
 }

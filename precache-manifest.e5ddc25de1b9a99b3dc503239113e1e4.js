@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a6dbcdc36aabf6ffe3278110f912f7b",
+    "revision": "749916b7f364d0a012d7a9f4bee6ca73",
     "url": "/wheniwilllosemyweight/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/wheniwilllosemyweight/static/js/2.b59e7e20.chunk.js.LICENSE"
   },
   {
-    "revision": "5c04cc8f44aef15aeebe",
-    "url": "/wheniwilllosemyweight/static/js/main.722851d0.chunk.js"
+    "revision": "f47a4529d8cf8931def7",
+    "url": "/wheniwilllosemyweight/static/js/main.097ae805.chunk.js"
   },
   {
     "revision": "84cc8f942d80013bdb9a",
